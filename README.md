@@ -1,16 +1,46 @@
-# ninja_id
+# 🥷 Ninja ID Card - Flutter App
 
-A new Flutter project.
+A simple and elegant Flutter application that displays a **Ninja ID Card** with a tappable floating action button that increases the ninja's level.
 
-## Getting Started
+## 📱 Preview
+![img.png](img.png)
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Displays a ninja-themed ID card with:
+    - Profile picture
+    - Name
+    - Dynamic "Ninja Level"
+    - Email contact
+- `+` button increments the ninja level using Flutter’s `StatefulWidget`.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Tech Stack
+
+- **Flutter** (Dart)
+- **Material Design Components**
+
+---
+
+## 📂 File Structure
+
+```bash
+ninja_id_card/
+├── assets/
+│   └── ninja.jpg         # Avatar image used in the app
+├── lib/
+│   └── main.dart         # Main Dart file (this project)
+├── pubspec.yaml          # Flutter configuration and asset linking
+└── README.md             # This file
+
+## How to Run
+
+- Clone the repo(or copy the main.dart to a flutter project)
+  -git clone <your-repo-url>
+  -cd ninja_id_card
+- Run the app
+  -flutter pub get
+  -flutter run

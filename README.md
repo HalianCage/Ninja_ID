@@ -35,12 +35,17 @@ ninja_id_card/
 │   └── main.dart         # Main Dart file (this project)
 ├── pubspec.yaml          # Flutter configuration and asset linking
 └── README.md             # This file
+```
 
 ## How to Run
 
 - Clone the repo(or copy the main.dart to a flutter project)
-  -git clone <your-repo-url>
-  -cd ninja_id_card
+```bash
+git clone <your-repo-url>
+cd ninja_id_card
+```
 - Run the app
-  -flutter pub get
-  -flutter run
+```bash
+flutter pub get
+flutter run
+```
